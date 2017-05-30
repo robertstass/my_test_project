@@ -3,9 +3,7 @@
 mkdir bin
 cd bin
 ln -s ../lib/hello_world.py hello_world
-
-
-ls b
+chmod +x ../lib/hello_world.py
 
 
 
