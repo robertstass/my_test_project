@@ -1,5 +1,5 @@
-SCRIPT=`realpath $0`
-SCRIPTPATH=`dirname $SCRIPT`
+set SCRIPT = `/usr/sbin/lsof +p $$ | grep -oE /.\*my_test_project.cshrc`
+set SCRIPTPATH = `dirname $SCRIPT`
 setenv MY_TEST_PROJECT $SCRIPTPATH
 
 ### Paths ###
